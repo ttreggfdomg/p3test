@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("ttreggfdomg/p3test")
+        app = docker.build("ttreggfd/p3test")
     }
 
     stage('Test image') {
