@@ -1,4 +1,4 @@
-FROM node:7-onbuild
+FROM node:-onbuild
 LABEL maintainer "academy@release.works"
 HEALTHCHECK --interval=5s \
             --timeout=5s \
